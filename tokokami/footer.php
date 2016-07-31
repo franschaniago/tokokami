@@ -1,0 +1,1 @@
+<div class="footer"><center>Hak Cipta TokoKami.com 2015</center></div>

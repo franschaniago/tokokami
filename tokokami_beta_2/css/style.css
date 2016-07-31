@@ -1,0 +1,145 @@
+*{
+	padding: 0; margin: 0; font-size: 15px; font-family: sans-serif; list-style: none; text-decoration: none; max-width: 100% !important;
+}
+
+html,body{
+	height: 100%;
+
+}
+
+h1{
+	font-size: 2em;
+	color: #51A9C1;
+}
+#head{
+	height: 53px;
+	background-color: #51A9C1;
+}
+
+#head p{
+	float: left;
+	margin: 1%;
+	font-size: 2em;
+	color: white;
+} 
+
+#head a{
+	float: right;
+	margin: 1%;
+	background-color: #CE5050;
+	border-radius: 5px;
+	border :5px solid #CE5050;
+	color: white; 
+	text-decoration: none;
+}
+
+#cari{
+	margin: 1.5%;
+}
+
+.navbar-default, .navbar-header, .navbar-collapse, .container-fluid {
+    background-color: #2C75DC;
+    border-color: #2C75DC;
+}
+
+	#nama{
+		font-size: 1.5em;
+	}
+
+	#gambar img{
+		width: 270px;
+		height: 270px;
+	}
+
+	#beli{
+		background-color: #3BCE3B;
+		border:4px solid #3BCE3B;
+		width: 30%;
+		border-radius: 5px;
+	}
+
+	#beli a{
+		color: white;
+		text-decoration: none;
+	}
+
+#konten{
+	border:0px solid blue;
+	width: 80%;
+	height: auto;
+	margin:5% auto;
+	margin-top: 0px;
+	padding-bottom: 200px;
+
+}
+
+
+.kol-4{
+	border: 1px solid gray;
+	border-radius: 5px;
+	height: 400px;
+	width: 30%;
+	margin:1%;
+	padding: 15px auto;
+	padding-left: 10px;
+	float: left;
+}
+
+#foot{
+	clear: both;
+	background-color: #2C75DC;
+	height: 10px;
+	text-align: center;
+	color: white;
+	padding: 30px;
+	font-size: 1em;
+
+}
+
+.text{
+	width: 40%;
+	border:0px;
+	border-radius: 5px;
+	height: 25px;
+}
+
+@media screen and (max-width: 480px){
+	body{
+		font-size: 10px;
+	}
+
+	#head{
+		height: 105px;
+	}
+
+	.kol-4{
+		width: 100%;
+	}
+
+	#head p{
+		width: 100%;
+		text-align: center;
+	}
+
+	#cari{
+		width: 100%;
+		margin: 0;
+	}
+
+	#blogtk{
+		width: 100%;
+		text-align: center;
+	}
+
+	#head a{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	#foot{
+		height: 100px;
+	}
+}
+
+
+
